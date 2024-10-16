@@ -1,6 +1,8 @@
 from modules import functions
 import FreeSimpleGUI as sg
 
+sg.theme('black')
+
 label = sg.Text("Masukkan ToDo anda")
 input_box = sg.InputText(tooltip="Masukkan ToDo")
 button_tambah = sg.Button("Tambah")
